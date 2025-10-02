@@ -51,9 +51,9 @@ const Hero = () => {
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi! I’m Geeran, a Toronto-based developer turning ideas 
+              Hi! I’m Geeran, a Toronto-based developer turning ideas into 
               <br className="hidden sm:block" />
-              into interactive, high-performance digital experiences.
+               interactive, high-performance digital experiences.
             </p>
 
             <Button
