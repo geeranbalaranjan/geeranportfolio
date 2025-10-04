@@ -55,9 +55,28 @@ const AppShowcase = () => {
               <h2>
                 An AI-powered app that analyzes your startup pitch using speech and facial expression recognition, providing instant feedback on delivery, content, and audience engagement.
               </h2>
-              <p className="text-white-50 md:text-xl">
-                Uses React, Tailwind CSS, ReactMediaRecorder, react-webcam, face-api.js, Flask, OpenAI Whisper API + OpenAI LLM API
-              </p>
+              <div className="mt-3 flex flex-wrap gap-2">
+                {[
+                  "React",
+                  "Tailwind CSS",
+                  "ReactMediaRecorder",
+                  "react-webcam",
+                  "face-api.js",
+                  "Flask",
+                  "OpenAI Whisper API",
+                  "OpenAI LLM API",
+                ].map((t) => (
+                  <span
+                    key={t}
+                    className="inline-flex items-center rounded-lg px-3 py-1 text-sm font-medium
+                              bg-blue-600 text-white shadow-sm ring-1 ring-white/10 hover:bg-blue-500"
+                  >
+                    {t}
+                  </span>
+                ))}
+              </div>
+
+              
             </div>
           </div>
 
@@ -70,13 +89,55 @@ const AppShowcase = () => {
                 />
               </div>
               <h2>The Job Scraper Chrome Extension</h2>
+            
+            <div className="mt-3 flex flex-wrap gap-2">
+              {[
+                "JavaScript",
+                "Chrome Extension",
+                "Manifest V3",
+                "Popup UI",
+                "Content Scripts",
+                "Chrome Storage",
+                "Tailwind CSS",
+                "DOM scraping",
+                "Configurable selectors",
+              ].map((t) => (
+                <span
+                  key={t}
+                  className="inline-flex items-center rounded-lg px-3 py-1 text-sm font-medium
+                            bg-blue-600 text-white shadow-sm ring-1 ring-white/10 hover:bg-blue-500"
+                >
+                  {t}
+                </span>
+              ))}
             </div>
-
+        
+            </div>
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
                 <img src="/images/project3.png" alt="YC Directory App" />
               </div>
               <h2>Password Visualizer - Interactive tool visualizing password strength in real-time</h2>
+              <div className="mt-3 flex flex-wrap gap-2">
+              {[
+                "React",
+                "JavaScript",
+                "Tailwind CSS",
+                "zxcvbn (entropy)",
+                "Clipboard API",
+                "Local-only evaluation",
+                "Accessible UI",
+              ].map((t) => (
+                <span
+                  key={t}
+                  className="inline-flex items-center rounded-lg px-3 py-1 text-sm font-medium
+                            bg-blue-600 text-white shadow-sm ring-1 ring-white/10 hover:bg-blue-500"
+                >
+                  {t}
+                </span>
+              ))}
+            </div>
+
             </div>
           </div>
         </div>
