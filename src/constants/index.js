@@ -145,7 +145,7 @@ const expLogos = [
 // -------------------- SOCIALS --------------------
 const socialImgs = [
   {
-    name: "x",
+    name: "github",
     imgPath: "/images/x.png",
     url: "https://github.com/geeranbalaranjan",
   },
@@ -153,6 +153,21 @@ const socialImgs = [
     name: "linkedin",
     imgPath: "/images/linkedin.png",
     url: "https://www.linkedin.com/in/geeranbalaranjan/",
+  },
+  {
+    name: "x",
+    imgPath: "/images/x.svg",
+    url: "https://x.com/GeeranBala",
+  },
+  {
+    name: "spotify",
+    imgPath: "/images/spotify.svg",
+    url: "https://open.spotify.com/user/geeran101?si=c18a5f2d0ecd4991",
+  },
+  {
+    name: "substack",
+    imgPath: "/images/substack.png",
+    url: "https://substack.com/@geeranbalaranjan",
   },
 ];
 
