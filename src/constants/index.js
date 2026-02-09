@@ -116,9 +116,9 @@ const expCards = [
     title: "Web Developer Intern",
     date: "January 2024 - April 2024",
     responsibilities: [
-      "Collaborated seamlessly within a diverse team, jointly conducting a comprehensive analysis of current mobile website to identify strengths, weaknesses, and areas for improvement",
-      "Employed Font Awesome for stylish and scalable icon integration, Nuxt.js (Vue.js Framework) to elevate overall development and user experience, and Express (Node.js Framework) to streamline server-side development, enhancing project performance.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Delivered three client-facing web applications by implementing responsive front-end components and integrating backend data flows using HTML, CSS, and JavaScript across production features and client requirements.",
+      "Improved page load time by 30% by optimizing SQL queries and restructuring indexes in a MySQL database, reducing query latency and backend load on high-traffic endpoints and core application flows.",
+      "Built a monitoring dashboard using JavaScript and Chart.js to visualize API latency, query performance, and user interaction metrics, reducing manual performance checks by 40% and improving issue response time by 25%.",
     ],
   },
   {
@@ -131,7 +131,7 @@ const expCards = [
     responsibilities: [
       "Facilitated communication between the Laurier Computing Society and first-year students, resulting in a 15% increase in first-year engagement with club events and workshops",
       "Collaborated with the outreach team to organize orientation sessions, networking events, and workshops tailored to the needs of students.",
-      "Managed social media accounts and promotional materials to effectively reach and engage the student community.",
+      "Planned and executed orientation sessions, networking events, and hands-on workshops for 200+ students, collaborating closely with executives, sponsors, and external partners to support student onboarding and professional development.",
     ],
   },
 ];
