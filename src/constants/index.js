@@ -130,7 +130,7 @@ const expCards = [
     date: "August 2023 - April 2025",
     responsibilities: [
       "Facilitated communication between the Laurier Computing Society and first-year students, resulting in a 15% increase in first-year engagement with club events and workshops",
-      "Collaborated with the outreach team to organize orientation sessions, networking events, and workshops tailored to the needs of students.",
+      "Supported digital outreach efforts by maintaining event pages, optimizing communication workflows, and leveraging analytics to improve turnout, communication clarity, and response rates across multiple academic semesters.",
       "Planned and executed orientation sessions, networking events, and hands-on workshops for 200+ students, collaborating closely with executives, sponsors, and external partners to support student onboarding and professional development.",
     ],
   },
